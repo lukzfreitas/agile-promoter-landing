@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import Header from './sections/header'
 import Features from './sections/features'
 import Contact from './sections/contact'
