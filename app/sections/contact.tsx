@@ -17,7 +17,7 @@ const Contact = () => {
             </div>
             <div className="mx-auto max-w-2xl text-center">
                 <h2 className="text-balance text-4xl font-semibold tracking-tight text-blue-900 sm:text-5xl">Entre em contato conosco</h2>
-                <p className="mt-2 text-lg/8 text-gray-600">Preencha o formulário abaixo e saiba mais sobre o nosso produto.</p>
+                <p className="mt-2 text-lg/8 text-gray-600">Preenche o formulário abaixo e saiba mais sobre o nosso produto.</p>
             </div>
             <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-16">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
