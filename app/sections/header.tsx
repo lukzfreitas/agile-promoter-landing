@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Header = () => {
     return (
         <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -21,7 +19,7 @@ const Header = () => {
                         Otimize sua rotina de promotores de forma ágil
                     </h1>
                     <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                        Sua solução perfeita para otimizar suas operações e tornar o processo de gestão mais ágil e eficiente.
+                        Sua solução perfeita para otimizar suas operações e tornar o processo de gestão mais ágil e eficiente. Pensada para agências de promotores, facilitando a gestão de seus funcionários.
                     </p>
                     <div className="h-12 mt-10 flex items-center justify-center gap-x-6">
                         <button className="h-12 px-6 m-2 text-lg text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">
@@ -42,9 +40,6 @@ const Header = () => {
                     }}
                     className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
                 />
-            </div>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-                <Image aria-hidden height={400} width={320} src="/giphy.gif" alt="aplicativo promotor ágil" />
             </div>
         </div>
     )

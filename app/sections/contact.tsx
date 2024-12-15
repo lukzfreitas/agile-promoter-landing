@@ -1,3 +1,4 @@
+import PhoneInput from "../components/phone-input";
 
 const Contact = () => {
     return (
@@ -68,13 +69,7 @@ const Contact = () => {
                         </label>
                         <div className="mt-2.5">
                             <div className="flex rounded-md bg-white outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600">
-                                <input
-                                    id="phone-number"
-                                    name="phone-number"
-                                    type="text"
-                                    placeholder="123-456-7890"
-                                    className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
-                                />
+                                <PhoneInput></PhoneInput>
                             </div>
                         </div>
                     </div>

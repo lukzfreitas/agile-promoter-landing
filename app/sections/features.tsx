@@ -1,4 +1,4 @@
-import { CircleStackIcon, MapPinIcon, PresentationChartBarIcon, WifiIcon } from '@heroicons/react/24/outline'
+import { BellAlertIcon, CircleStackIcon, MapPinIcon, PhotoIcon, PresentationChartBarIcon, WifiIcon } from '@heroicons/react/24/outline'
 
 
 const Features = () => {
@@ -7,7 +7,7 @@ const Features = () => {
         {
             name: 'Acompanhe em tempo real',
             description:
-                'Visualize em tempo real o roteiro de seus promotores e suas atividades agendadas no dia.',
+                'Acompanhe em tempo real você e seus clientes o roteiro de seus promotores e suas atividades programadas no dia.',
             icon: MapPinIcon,
         },
         {
@@ -17,15 +17,27 @@ const Features = () => {
             icon: WifiIcon,
         },
         {
+            name: 'Alertas',
+            description:
+                'Alertas em tempo real de controle de data crítica e reportes de ruputuras e faltas de estoque.',
+            icon: BellAlertIcon,
+        },
+        {
             name: 'Armazenamento de imagens',
             description:
                 'Armazene as fotos tiradas pelo promotor para ter controle de suas atividades.',
             icon: CircleStackIcon,
         },
         {
+            name: 'Reconhecimento de imagens',
+            description:
+                'Uso de inteligência artificial para processamento de imagens para identificação de itens na gôndola e quantidade.',
+            icon: PhotoIcon,
+        },
+        {
             name: 'Relatório de desempenho',
             description:
-                'Relatórios detalhados sobre o desempenho de seus promotores.',
+                'Analise preditiva de desempenho de seus promotores para antecipar cenário futuros, util para seu planejamento estratégico e orçamentário.',
             icon: PresentationChartBarIcon,
         },
     ]
