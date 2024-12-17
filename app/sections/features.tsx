@@ -1,6 +1,5 @@
 import { BellAlertIcon, CircleStackIcon, MapPinIcon, PhotoIcon, PresentationChartBarIcon, WifiIcon } from '@heroicons/react/24/outline'
 
-
 const Features = () => {
 
     const features = [
