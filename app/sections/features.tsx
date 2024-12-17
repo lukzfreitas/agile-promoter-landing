@@ -4,39 +4,39 @@ const Features = () => {
 
     const features = [
         {
-            name: 'Acompanhe em tempo real',
+            name: 'Monitoramento em tempo real',
             description:
-                'Acompanhe em tempo real você e seus clientes o roteiro de seus promotores e suas atividades programadas no dia.',
+                'Acompanhe em tempo real a rotina de seus promotores suas atividades programadas no dia.',
             icon: MapPinIcon,
         },
         {
             name: 'Suas atividades off-line',
             description:
-                'Seu promotor pode realizar suas tarefas básicas sem precisar estar conectado a internet.',
+                'Seu promotor realiza sua rotina sem precisar estar conectado a internet, a sincronizacao é automática assim que estiver online.',
             icon: WifiIcon,
         },
         {
             name: 'Alertas',
             description:
-                'Alertas em tempo real de controle de data crítica e reportes de ruputuras e faltas de estoque.',
+                'Alertas em tempo real de controle de data crítica, reportes de ruputuras e faltas em estoque.',
             icon: BellAlertIcon,
         },
         {
             name: 'Armazenamento de imagens',
             description:
-                'Armazene as fotos tiradas pelo promotor para ter controle de suas atividades.',
+                'Fotos tiradas pelos promotores ficam armazenadas para controle de suas atividades.',
             icon: CircleStackIcon,
         },
         {
             name: 'Reconhecimento de imagens',
             description:
-                'Uso de inteligência artificial para processamento de imagens para identificação de itens na gôndola e quantidade.',
+                'Uso de inteligência artificial para processamento de imagens. Agilizando o acompanhamento dos resultados',
             icon: PhotoIcon,
         },
         {
             name: 'Relatório de desempenho',
             description:
-                'Analise preditiva de desempenho de seus promotores para antecipar cenário futuros, util para seu planejamento estratégico e orçamentário.',
+                'Geração de relatórios para clientes com fluxo de aprovação de imagens e resultados.',
             icon: PresentationChartBarIcon,
         },
     ]

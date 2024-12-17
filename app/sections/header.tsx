@@ -19,7 +19,7 @@ const Header = () => {
                         Otimize sua rotina de promotores de forma ágil
                     </h1>
                     <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                        Sua solução perfeita para otimizar suas operações e tornar o processo de gestão mais ágil e eficiente. Pensada para agências de promotores, facilitando a gestão de seus funcionários.
+                        {'Solução para otimizar suas operações de ponto de venda (PDV). Pensada para agências de promotores, simplificando as estratégias de trade marketing.'}
                     </p>
                     <div className="h-12 mt-10 flex items-center justify-center gap-x-6">
                         <button className="h-12 px-6 m-2 text-lg text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">

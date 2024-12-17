@@ -9,7 +9,7 @@ const Mobile = () => {
                 </div>
                 <div>
                     <h1 className="text-center text-5xl font-semibold tracking-tight text-blue-900 sm:text-5xl">
-                        App disponível para Android e IOS
+                        Compatível com Android e IOS
                     </h1>
                     <br></br>
                     <h1 className="text-center text-5xl font-semibold tracking-tight text-gray-500 sm:text-4xl max-w-2xl">
