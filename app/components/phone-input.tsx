@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 
-function PhoneInput() {
+const PhoneInput = (props: { onChangeText: (text: string) => void }) => {
     const [phoneNumber, setPhoneNumber] = useState('');
 
     const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const input = event.target.value.replace(/\D/g, '').substring(0, 11);
         const formattedInput = `(${input.substring(0, 2)}) ${input.substring(2, 7)}-${input.substring(7, 11)}`;
         setPhoneNumber(formattedInput);
+        props.onChangeText(formattedInput);
     };
 
     return (
