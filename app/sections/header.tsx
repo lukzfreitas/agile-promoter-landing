@@ -1,6 +1,6 @@
-const Header = () => {
+const Header = (props: { id: string }) => {
     return (
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        <div id={props.id} className="relative isolate px-6 pt-14 lg:px-8">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -22,9 +22,11 @@ const Header = () => {
                         {'Solução para otimizar suas operações de ponto de venda (PDV). Pensada para agências de promotores, simplificando as estratégias de trade marketing.'}
                     </p>
                     <div className="h-12 mt-10 flex items-center justify-center gap-x-6">
-                        <button className="h-12 px-6 m-2 text-lg text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">
-                            Saiba mais
-                        </button>
+                        <a href="#contact">
+                            <button className="h-12 px-6 m-2 text-lg text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">
+                                Saiba mais
+                            </button>
+                        </a>
 
                     </div>
                 </div>
@@ -41,7 +43,7 @@ const Header = () => {
                     className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
                 />
             </div>
-        </div>
+        </div >
     )
 }
 
