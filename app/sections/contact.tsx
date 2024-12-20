@@ -2,7 +2,7 @@ import { useState } from "react";
 import PhoneInput from "../components/phone-input";
 import sendEmail from "../service/send-mail";
 
-const Contact = () => {
+const Contact = (props: { id: string }) => {
 
     const [name, setName] = useState('');
     const [company, setCompany] = useState('');
@@ -11,7 +11,7 @@ const Contact = () => {
     const [message, setMessage] = useState('');
 
     return (
-        <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+        <div id={props.id} className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
