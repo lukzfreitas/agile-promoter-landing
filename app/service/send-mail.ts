@@ -6,7 +6,7 @@ const sendEmail = async (emailFrom: string, message: string, name: string, compa
 
     return await resend.emails.send({
         from: (process.env.emailFrom as string),
-        to: (process.env.emailTo as string),
+        to: (process.env.emailHost as string),
         subject: 'Contato via landing page',
         html: `
             <strong> E-mail: </strong> <p> ${emailFrom} <p>
